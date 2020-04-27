@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://www.sinkitwah.tk/"/>
   <updated>2020-04-27T05:27:44.555Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://www.sinkitwah.tk/</id>
   
   <author>
     <name>KitwahSin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Jenkins+GitLab实现持续集成</title>
-    <link href="http://yoursite.com/2020/04/27/Jenkins-GitLab%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
-    <id>http://yoursite.com/2020/04/27/Jenkins-GitLab%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</id>
+    <link href="https://www.sinkitwah.tk/2020/04/27/Jenkins-GitLab%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    <id>https://www.sinkitwah.tk/2020/04/27/Jenkins-GitLab%E5%AE%9E%E7%8E%B0%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/</id>
     <published>2020-04-26T17:11:48.000Z</published>
     <updated>2020-04-27T05:27:44.555Z</updated>
     
