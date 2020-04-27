@@ -116,6 +116,9 @@ deploy:
   repo: git@github.com:KitwahSin/KitwahSin.github.io.git
   branch: master 
 
+# Backup
+## npm install hexo-git-backup --save
+## hexo backup
 backup:
   type: git
   theme: hexo-theme-brewski
