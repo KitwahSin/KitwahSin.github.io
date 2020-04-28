@@ -2,6 +2,7 @@
 title: Jenkins+GitLab实现持续集成
 abbrlink: 47535
 date: 2020-04-27 01:11:48
+tag: 倘若图片无法加载，请百度解决GitHub网页githubusercontent地址无法访问问题。
 ---
 
 ## 环境
