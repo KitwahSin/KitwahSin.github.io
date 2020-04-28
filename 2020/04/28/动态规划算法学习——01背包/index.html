@@ -5,7 +5,7 @@
 <p>题目：有N件物品和一个容量为V的背包，放入第i件物品消耗的容量为Ci，可以获得的价值为Wi，求最大的价值总和。</p>
 <p>F[i,v]代表前i件物品放入容量为v的背包可以获得的最大价值。因此可以得到转移方程为<code>F[i, v] =  max{F[i - 1, v], F[i - 1, v - Ci] + Wi}</code></p>
 <p>可以得到伪代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt;F[0,0..V] &lt;- 0</span><br><span class="line">&gt;for i &lt;- 1 to N</span><br><span class="line">for v &lt;- Ci to V</span><br><span class="line">	F[i, v] &lt;- max&#123;F[i - 1, v], F[i - 1,v - Ci] + Wi&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">F[0,0..V] &lt;- 0</span><br><span class="line">for i &lt;- 1 to N</span><br><span class="line">	for v &lt;- Ci to V</span><br><span class="line">		F[i, v] &lt;- max&#123;F[i - 1, v], F[i - 1,v - Ci] + Wi&#125;</span><br></pre></td></tr></table></figure>
 <p>此处建议查看《背包九讲》</p>
 </blockquote>
 <h2 id="LeetCode416-分割等和子集"><a href="#LeetCode416-分割等和子集" class="headerlink" title="LeetCode416-分割等和子集"></a>LeetCode416-<a href="https://leetcode-cn.com/problems/partition-equal-subset-sum/" target="_blank" rel="noopener">分割等和子集</a></h2><blockquote>
